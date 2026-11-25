@@ -6,11 +6,14 @@ birthdays = {
     'Rowan Atkinson': '01/6/1955',
     'Matteo Polo': '02/7/2007'}
 
+
 def print_birthdays():
     '''Comment the function.'''
-    print('Welcome to the birthday dictionary. We know the birthdays of these people:')
+    print('Welcome to the birthday dictionary. '
+          'We know the birthdays of these people:')
     for name in birthdays:
         print(name)
+
 
 def return_birthday(name):
     '''Comment the function.'''
@@ -18,4 +21,3 @@ def return_birthday(name):
         print('{}\'s birthday is {}.'.format(name, birthdays[name]))
     else:
         print('Sadly, we don\'t have {}\'s birthday.'.format(name))
-
